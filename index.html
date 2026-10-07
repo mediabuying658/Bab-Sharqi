@@ -314,7 +314,7 @@ function editorHtml(){
   h+='<section><h2>Publishing (GitHub)</h2><div class="stack">'
     +'<label class="f">GitHub username<input type="text" id="g-owner" data-g="owner" value="'+esc(g.owner)+'" placeholder="your-username" autocomplete="off"></label>'
     +'<label class="f">Repository name<input type="text" id="g-repo" data-g="repo" value="'+esc(g.repo)+'" placeholder="links" autocomplete="off"></label>'
-    +'<label class="f">Access token<input type="password" id="g-token" data-tok="1" value="'+esc(getTok())+'" placeholder="github_pat_…" autocomplete="off"></label>'
+    +'<label class="f">Access token<input type="text" id="g-token" data-tok="1" value="'+esc(getTok())+'" placeholder="github_pat_…" autocomplete="off"></label>'
     +'<p class="hint">The token stays in this browser only. It is never saved into the page.</p></div></section>';
   return h;
 }
